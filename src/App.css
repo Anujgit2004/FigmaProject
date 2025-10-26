@@ -1,0 +1,57 @@
+body{
+   
+ 
+background-color: #25282c ;
+}
+
+.topBox{
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.top_nav button:nth-child(1){
+ 
+box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
+
+transition: all 0.2s ease-in;
+
+}
+.uploaded-img-sec{
+    overflow: hidden;
+}
+.uploaded-img-sec img{
+    height: 200px;
+    min-width: 180px;
+}
+.uploaded-img-sec img:hover{
+    transition: all 0.5s ease-in;
+    transform:scaleZ(2)
+}
+.topBox,.bottom_box{
+    height: 380px;  
+}
+.upload_right button{
+   background-color: rgb(64,69,76);
+    box-shadow: rgba(14, 13, 13, 0.35) 0px 12px 19px;
+}
+@media (max-width:1400px) {
+    .rightPortion{
+        width: 60%;
+    }
+}
+@media (max-width:1280px) {
+    .rightPortion{
+        width: 70%;
+    } 
+}
+@media (max-width:950px) {
+   .top_nav button:nth-child(1){
+padding-right:13%;
+   } 
+}
+@media (max-width:870px) {
+    .rightPortion{
+        width: 75%;
+    } 
+      .top_nav button:nth-child(1){
+padding-right:12%;
+   }  
+}
