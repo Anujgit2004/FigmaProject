@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import Frame1 from "C:/Users/Victus/Upload Image/Upload/src/assets/Frame 1000002294.png"
-import Rect1 from "C:/Users/Victus/Upload Image/Upload/src/assets/Rectangle 39335.png"
+import Frame1 from "C:/Users/Victus/Upload Image/Upload/src/assets/Frame1000002294.png"
+import Rect1 from "C:/Users/Victus/Upload Image/Upload/src/assets/Rectangle39335.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import viteLogo from '/vite.svg'
 import './App.css'
@@ -59,6 +59,7 @@ id:103,
 content:"I have not been recomended by anyone yet..Currently I have no professional experience yet but I have done multiple frontend projects,build eye catching UI of websites using Html,Css,JavaScript,React and frameworks like bootstrap and tailwind css."
   }
 ]
+
 
 
 let get_obj=obj.filter((v,i)=>v.id==match);
