@@ -1,7 +1,7 @@
 import { useEffect, useRef, useState } from 'react'
 import reactLogo from './assets/react.svg'
-import Frame1 from "C:/Users/Victus/UploadImage/Upload/src/assets/Frame1000002294.png"
-import Rect1 from "C:/Users/Victus/UploadImage/Upload/src/assets/Rectangle39335.png"
+import Frame1 from "./assets/Frame1000002294.png"
+import Rect1 from "./assets/Rectangle39335.png"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import viteLogo from '/vite.svg'
 import './App.css'
